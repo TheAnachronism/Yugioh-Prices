@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4F3BB4E-13F7-4910-9527-17939B48921A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{D50F28FB-987D-4808-AC23-4B3C3890DC1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7320C24E-BF20-43FF-B71C-DED7E1210601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YugiohPrices.Models", "src\YugiohPrices.Models\YugiohPrices.Models.csproj", "{EE5C7BDA-EBF7-46C2-91F8-D18E5E6D56D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YugiohPrices.Library", "src\YugiohPrices.Library\YugiohPrices.Library.csproj", "{5CD525DE-C04E-4688-8947-81B4D009431A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE5C7BDA-EBF7-46C2-91F8-D18E5E6D56D8} = {D4F3BB4E-13F7-4910-9527-17939B48921A}
+		{5CD525DE-C04E-4688-8947-81B4D009431A} = {D4F3BB4E-13F7-4910-9527-17939B48921A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE5C7BDA-EBF7-46C2-91F8-D18E5E6D56D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5C7BDA-EBF7-46C2-91F8-D18E5E6D56D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5C7BDA-EBF7-46C2-91F8-D18E5E6D56D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5C7BDA-EBF7-46C2-91F8-D18E5E6D56D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD525DE-C04E-4688-8947-81B4D009431A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD525DE-C04E-4688-8947-81B4D009431A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD525DE-C04E-4688-8947-81B4D009431A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD525DE-C04E-4688-8947-81B4D009431A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
