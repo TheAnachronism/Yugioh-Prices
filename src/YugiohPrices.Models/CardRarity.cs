@@ -10,20 +10,29 @@ namespace YugiohPrices.Models
     [JsonConverter(typeof(JsonStringEnumMemberConverter))]
     public enum CardRarity
     {
-        [EnumMember(Value = "Ultra Rare")]
-        UltraRare,
+        Common,
+        Rare,
         [EnumMember(Value = "Super Rare")]
         SuperRare,
-        Rare,
-        [EnumMember(Value = "Starfoil Rare")]
-        StarfoilRare,
-        [EnumMember(Value = "Prismatic Secret Rare")]
-        PrismaticSecretRare,
-        [EnumMember(Value = "Gold Rare")]
-        GoldRare,
+        [EnumMember(Value = "Holofoil Rare")]
+        HolofoilRare,
+        [EnumMember(Value = "Ultra Rare")]
+        UltraRare,
+        [EnumMember(Value = "Ultimate Rare")]
+        UltimateRare,
         [EnumMember(Value = "Secret Rare")]
         SecretRare,
-        [EnumMember(Value = "Ultimate Rare")]
-        UltimateRare
+        [EnumMember(Value = "Ultra Secret Rare")]
+        UltraSecretRare,
+        [EnumMember(Value = "Secret Ultra Rare")]
+        SecretUltraRare,
+        [EnumMember(Value = "Parallel Rare")]
+        ParallelRare,
+        [EnumMember(Value = "Starfoil Rare")]
+        StarfoilRare,
+        [EnumMember(Value = "Ghost Rare")]
+        GhostRare,
+        [EnumMember(Value = "Gold Ultra Rare")]
+        GoldUltraRare
     }
 }

@@ -32,6 +32,15 @@ namespace YugiohPrices.Library.Client
             return JsonSerializer.Deserialize<IEnumerable<CardNameResponse>>(content, _jsonOptions);
         }
 
+        public async Task<CardPrintTagResponse> GetCardPricesForPrintTag(string printTag)
+        {
+            var baseUrl = $"price_for_print_tag/{printTag}";
+            var requestUrl = BuildRequestUrl(baseUrl);
+            var content = await _httpClient.GetAsync(requestUrl);
+
+            return JsonSerializer.Deserialize<CardPrintTagResponse>(content, _jsonOptions);
+        }
+
         private static string BuildRequestUrl(string urlSlug, NameValueCollection queryParameters)
         {
             return BuildRequestUrl(urlSlug + ToQueryString(queryParameters));

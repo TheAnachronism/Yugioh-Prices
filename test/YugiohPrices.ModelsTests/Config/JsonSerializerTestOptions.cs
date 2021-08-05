@@ -6,6 +6,6 @@ namespace YugiohPrices.ModelsTests.Config
     public static class JsonSerializerTestOptions
     {
         public static JsonSerializerOptions JsonSerializerOptions = new JsonSerializerOptions
-            { PropertyNameCaseInsensitive = true};
+            { PropertyNameCaseInsensitive = true, Converters = { new JsonStringEnumMemberConverter() }};
     }
 }

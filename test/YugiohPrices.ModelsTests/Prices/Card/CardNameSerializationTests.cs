@@ -17,6 +17,7 @@ namespace YugiohPrices.ModelsTests.Prices.Card
             var content = JsonSerializer.Deserialize<IEnumerable<CardNameResponse>>(jsonData, JsonSerializerTestOptions.JsonSerializerOptions);
             
             Assert.Equal(15, content.Count());
+            Assert.NotNull(content.FirstOrDefault().PriceData);
         }
     }
 }

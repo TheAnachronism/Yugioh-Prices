@@ -1,0 +1,32 @@
+﻿{
+  "name": "Raigeki",
+  "card_type": "spell",
+  "property": "Normal",
+  "family": null,
+  "type": null,
+  "price_data": {
+    "name": "Structure Deck: Spirit Charmers",
+    "print_tag": "SDCH-EN021",
+    "rarity": "Super Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 22.47,
+          "low": 1.98,
+          "average": 2.82,
+          "shift": -0.0275862068965517,
+          "shift_3": -0.0105263157894737,
+          "shift_7": -0.0242214532871972,
+          "shift_21": 0.0483271375464684,
+          "shift_30": 0.0641509433962264,
+          "shift_90": 0.0143884892086331,
+          "shift_180": 0.323943661971831,
+          "shift_365": 0.0,
+          "updated_at": "2021-08-05 01:27:24 -0600"
+        }
+      }
+    }
+  }
+}

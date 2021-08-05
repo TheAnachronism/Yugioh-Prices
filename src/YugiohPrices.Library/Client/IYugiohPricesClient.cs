@@ -7,5 +7,6 @@ namespace YugiohPrices.Library.Client
     public interface IYugiohPricesClient
     {
         Task<IEnumerable<CardNameResponse>> GetCardPricesForName(string name);
+        Task<CardPrintTagResponse> GetCardPricesForPrintTag(string printTag);
     }
 }
