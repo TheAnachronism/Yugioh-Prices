@@ -1,0 +1,377 @@
+﻿[
+  {
+    "name": "Structure Deck: Spirit Charmers",
+    "print_tag": "SDCH-EN021",
+    "rarity": "Super Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 22.47,
+          "low": 1.98,
+          "average": 2.82,
+          "shift": -0.0275862068965517,
+          "shift_3": -0.0105263157894737,
+          "shift_7": -0.0242214532871972,
+          "shift_21": 0.0483271375464684,
+          "shift_30": 0.0641509433962264,
+          "shift_90": 0.0143884892086331,
+          "shift_180": 0.323943661971831,
+          "shift_365": 0.0,
+          "updated_at": "2021-08-05 01:27:24 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Battle Pack: Epic Dawn",
+    "print_tag": "BP01-EN032",
+    "rarity": "Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 26.4,
+          "low": 2.88,
+          "average": 6.15,
+          "shift": 0.00162866449511401,
+          "shift_3": 0.0284280936454849,
+          "shift_7": 0.0232945091514143,
+          "shift_21": 0.0982142857142857,
+          "shift_30": 0.0982142857142857,
+          "shift_90": -0.0345368916797488,
+          "shift_180": -0.133802816901408,
+          "shift_365": -0.13986013986014,
+          "updated_at": "2021-08-05 00:13:40 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Battle Pack: Epic Dawn",
+    "print_tag": "BP01-EN032",
+    "rarity": "Starfoil Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 11.7,
+          "low": 2.88,
+          "average": 6.27,
+          "shift": 0.00642054574638844,
+          "shift_3": 0.0228384991843393,
+          "shift_7": 0.0211726384364821,
+          "shift_21": 0.050251256281407,
+          "shift_30": 0.0245098039215686,
+          "shift_90": 0.00642054574638844,
+          "shift_180": -0.127955493741307,
+          "shift_365": -0.0779411764705882,
+          "updated_at": "2021-08-05 01:27:16 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "2019 Gold Sarcophagus Tin",
+    "print_tag": "TN19-EN010",
+    "rarity": "Prismatic Secret Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 52.07,
+          "low": 2.95,
+          "average": 4.73,
+          "shift": -0.00630252100840336,
+          "shift_3": -0.0186721991701245,
+          "shift_7": -0.00630252100840336,
+          "shift_21": -0.0405679513184584,
+          "shift_30": -0.0463709677419355,
+          "shift_90": -0.0444444444444444,
+          "shift_180": -0.00630252100840336,
+          "shift_365": 0.156479217603912,
+          "updated_at": "2021-08-05 00:13:47 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Legend of Blue Eyes White Dragon",
+    "print_tag": "LOB-053",
+    "rarity": "Super Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 4500.0,
+          "low": 3.03,
+          "average": 9.78,
+          "shift": -0.164242942686056,
+          "shift_3": 0.857414448669201,
+          "shift_7": 0.625623960066556,
+          "shift_21": 0.458208955223881,
+          "shift_30": 0.617549668874172,
+          "shift_90": 0.329251700680272,
+          "shift_180": 0.40981240981241,
+          "shift_365": 0.47583081570997,
+          "updated_at": "2021-08-05 00:13:49 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Legendary Collection Kaiba Mega Pack",
+    "print_tag": "LCKC-EN088",
+    "rarity": "Ultra Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 44.25,
+          "low": 3.14,
+          "average": 4.78,
+          "shift": -0.0382293762575453,
+          "shift_3": -0.0323886639676113,
+          "shift_7": -0.0343434343434343,
+          "shift_21": 0.0717488789237668,
+          "shift_30": 0.0693512304250559,
+          "shift_90": -0.328651685393258,
+          "shift_180": -0.0304259634888438,
+          "shift_365": -0.304221251819505,
+          "updated_at": "2021-08-05 00:13:46 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Premium Gold: Return of the Bling",
+    "print_tag": "PGL2-EN048",
+    "rarity": "Gold Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 12.21,
+          "low": 3.68,
+          "average": 6.55,
+          "shift": 0.029874213836478,
+          "shift_3": 0.0155038759689922,
+          "shift_7": 0.0347551342812006,
+          "shift_21": -0.0310650887573964,
+          "shift_30": -0.0940525587828492,
+          "shift_90": -0.101508916323731,
+          "shift_180": -0.117250673854447,
+          "shift_365": -0.188351920693928,
+          "updated_at": "2021-08-05 00:13:43 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Legendary Collection 4: Joey's World Mega Pack",
+    "print_tag": "LCJW-EN057",
+    "rarity": "Secret Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 56.91,
+          "low": 4.98,
+          "average": 8.26,
+          "shift": 0.00121212121212121,
+          "shift_3": -0.056,
+          "shift_7": -0.0570776255707763,
+          "shift_21": 0.0210135970333745,
+          "shift_30": -0.0677200902934537,
+          "shift_90": -0.0982532751091703,
+          "shift_180": 0.00854700854700855,
+          "shift_365": 0.0868421052631579,
+          "updated_at": "2021-08-05 00:13:42 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Legendary Collection 3: Yugi's World Mega Pack",
+    "print_tag": "LCYW-EN054",
+    "rarity": "Secret Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 51.65,
+          "low": 6.69,
+          "average": 10.3,
+          "shift": 0.0228401191658391,
+          "shift_3": 0.0127826941986234,
+          "shift_7": -0.012464046021093,
+          "shift_21": -0.0143540669856459,
+          "shift_30": 0.0684647302904564,
+          "shift_90": 0.0414560161779575,
+          "shift_180": 0.033099297893681,
+          "shift_365": 0.426592797783933,
+          "updated_at": "2021-08-05 01:27:18 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Legend of Blue Eyes White Dragon",
+    "print_tag": "LOB-E042",
+    "rarity": "Super Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 95.89,
+          "low": 6.99,
+          "average": 21.46,
+          "shift": 0.000466200466200466,
+          "shift_3": -0.014692378328742,
+          "shift_7": 0.00327255726975222,
+          "shift_21": 0.00515222482435597,
+          "shift_30": -0.0196436729100046,
+          "shift_90": -0.00602130616025938,
+          "shift_180": 0.210377890580936,
+          "shift_365": 0.035214664737096,
+          "updated_at": "2021-08-05 01:27:26 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Dark Beginning 1",
+    "print_tag": "DB1-EN114",
+    "rarity": "Ultra Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 299.95,
+          "low": 8.98,
+          "average": 16.86,
+          "shift": 0.0,
+          "shift_3": 0.0,
+          "shift_7": 0.0,
+          "shift_21": -0.0806979280261723,
+          "shift_30": -0.0746432491767289,
+          "shift_90": -0.0528089887640449,
+          "shift_180": 0.0413835701050031,
+          "shift_365": 0.0745697896749522,
+          "updated_at": "2021-08-05 00:13:39 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Dark Legends",
+    "print_tag": "DLG1-EN006",
+    "rarity": "Super Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 34.06,
+          "low": 10.07,
+          "average": 16.58,
+          "shift": 0.0,
+          "shift_3": -0.00120554550934298,
+          "shift_7": 0.0298321939092604,
+          "shift_21": 0.183571428571429,
+          "shift_30": 0.228317272053373,
+          "shift_90": 0.0608194622279129,
+          "shift_180": 0.109845947756196,
+          "shift_365": 0.171852899575672,
+          "updated_at": "2021-08-05 00:13:50 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Legend of Blue Eyes White Dragon",
+    "print_tag": "LOB-EN053",
+    "rarity": "Super Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 47.07,
+          "low": 14.07,
+          "average": 31.3,
+          "shift": 0.0,
+          "shift_3": -0.00127632418634333,
+          "shift_7": 0.0,
+          "shift_21": -0.00159489633173844,
+          "shift_30": 0.455813953488372,
+          "shift_90": 0.923786109403811,
+          "shift_180": 1.4414976599064,
+          "shift_365": 1.9170549860205,
+          "updated_at": "2021-08-04 23:36:18 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "Retro Pack",
+    "print_tag": "RP01-EN005",
+    "rarity": "Ultra Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 200.0,
+          "low": 75.9,
+          "average": 133.3,
+          "shift": 0.036064044769159,
+          "shift_3": 0.325840461507858,
+          "shift_7": 0.299980495416423,
+          "shift_21": 0.110278194236215,
+          "shift_30": 0.131194840461643,
+          "shift_90": 0.016548463356974,
+          "shift_180": 0.280376524829507,
+          "shift_365": 0.15032792544011,
+          "updated_at": "2021-08-05 01:27:27 -0600"
+        }
+      }
+    }
+  },
+  {
+    "name": "OTS Tournament Pack 2",
+    "print_tag": "OP02-EN003",
+    "rarity": "Ultimate Rare",
+    "price_data": {
+      "status": "success",
+      "data": {
+        "listings": [],
+        "prices": {
+          "high": 250.98,
+          "low": 114.99,
+          "average": 129.33,
+          "shift": -0.011087322220523,
+          "shift_3": -0.0042346781644595,
+          "shift_7": 0.00178156467854376,
+          "shift_21": -0.0672868887927304,
+          "shift_30": -0.0794362588084561,
+          "shift_90": -0.0919750052657446,
+          "shift_180": 0.773101179051275,
+          "shift_365": 0.659566277428461,
+          "updated_at": "2021-08-05 00:13:45 -0600"
+        }
+      }
+    }
+  }
+]
