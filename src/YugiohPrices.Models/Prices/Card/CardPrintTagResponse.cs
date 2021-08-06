@@ -21,7 +21,8 @@ namespace YugiohPrices.Models.Prices.Card
         /// <summary>
         /// The cards family.
         /// </summary>
-        public CardAttribute? Family { get; set; }
+        [JsonPropertyName("family")]
+        public CardAttribute? Attribute { get; set; }
 
         /// <summary>
         /// The cars monster type

@@ -6,6 +6,7 @@ namespace YugiohPrices.Models
     /// <summary>
     /// Represents the family a monster can be.
     /// </summary>
+    [JsonConverter(typeof(JsonStringEnumMemberConverter))]
     public enum CardAttribute
     {
         Dark,

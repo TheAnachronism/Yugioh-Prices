@@ -14,7 +14,7 @@ namespace YugiohPrices.Library.Services
                 var options = new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true,
-                    Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
+                    Converters = { new JsonStringEnumMemberConverter(JsonNamingPolicy.CamelCase) }
                 };
 
                 x.JsonSerializerOptions = options;
