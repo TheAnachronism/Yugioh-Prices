@@ -26,6 +26,9 @@
       <None Update="TestData\Prices\Card\CardPrintTagDemoResponse.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="TestData\Prices\Card\CardPrintTagHistoryWithRarityDemoResponse.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
     <ItemGroup>

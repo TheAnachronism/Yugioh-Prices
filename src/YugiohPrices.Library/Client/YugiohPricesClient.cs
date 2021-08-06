@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Web;
 using Microsoft.Extensions.Options;
 using YugiohPrices.Library.Services;
+using YugiohPrices.Models;
 using YugiohPrices.Models.Prices.Card;
 
 namespace YugiohPrices.Library.Client
@@ -39,6 +40,20 @@ namespace YugiohPrices.Library.Client
             var content = await _httpClient.GetAsync(requestUrl);
 
             return JsonSerializer.Deserialize<CardPrintTagResponse>(content, _jsonOptions);
+        }
+
+        public async Task<IEnumerable<CardPrintTagHistoryEntry>> GetCardPriceHistoryWithRarity(string printTag, CardRarity rarity)
+        {
+            var baseUrl = $"price_history/{printTag}";
+            var requestUrl = BuildRequestUrl(baseUrl, new NameValueCollection
+            {
+                {
+                    "rarity", Enum.GetName(rarity)
+                }
+            });
+            var content = await _httpClient.GetAsync(requestUrl);
+
+            return JsonSerializer.Deserialize<IEnumerable<CardPrintTagHistoryEntry>>(content);
         }
 
         private static string BuildRequestUrl(string urlSlug, NameValueCollection queryParameters)
