@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using YugiohPrices.Models;
+using YugiohPrices.Models.Database;
 using YugiohPrices.Models.Prices.Card;
 using YugiohPrices.Models.Prices.Set;
 
@@ -36,5 +37,11 @@ namespace YugiohPrices.Library.Client
         /// <param name="setName">The name of the set.</param>
         /// <returns>The price information of the set with all its cards.</returns>
         Task<SetAllCardPricesResponse> GetSetPriceWithAllCards(string setName);
+
+        /// <summary>
+        /// Gets all the current sets in the yugioh prices database.
+        /// </summary>
+        /// <returns>A list of set names.</returns>
+        Task<SetDatabaseResponse> GetSetNames();
     }
 }

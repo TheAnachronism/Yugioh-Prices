@@ -30,9 +30,11 @@ namespace YugiohPrices.Library.Services
             if (!response.IsSuccessStatusCode)
                 throw new HttpFailedRequestException(response.StatusCode, response.ReasonPhrase, url);
 
-            var content = await response.Content.ReadAsStreamAsync();
+            var content = await response.Content.ReadAsStringAsync();
             var document = JsonDocument.Parse(content);
-            return document.RootElement.GetProperty("data").ToString();
+            return document.RootElement.ValueKind is JsonValueKind.Array
+                ? document.RootElement.ToString()
+                : document.RootElement.GetProperty("data").ToString();
         }
     }
 

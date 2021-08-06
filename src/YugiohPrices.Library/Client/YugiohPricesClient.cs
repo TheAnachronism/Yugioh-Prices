@@ -8,6 +8,7 @@ using System.Web;
 using Microsoft.Extensions.Options;
 using YugiohPrices.Library.Services;
 using YugiohPrices.Models;
+using YugiohPrices.Models.Database;
 using YugiohPrices.Models.Prices.Card;
 using YugiohPrices.Models.Prices.Set;
 
@@ -64,6 +65,15 @@ namespace YugiohPrices.Library.Client
             var content = await _httpClient.GetAsync(requestUrl);
 
             return JsonSerializer.Deserialize<SetAllCardPricesResponse>(content, _jsonOptions);
+        }
+
+        public async Task<SetDatabaseResponse> GetSetNames()
+        {
+            var baseUrl = $"card_sets";
+            var requestUrl = BuildRequestUrl(baseUrl);
+            var content = await _httpClient.GetAsync(requestUrl);
+            
+            return JsonSerializer.Deserialize<SetDatabaseResponse>(content, _jsonOptions);
         }
 
         private static string BuildRequestUrl(string urlSlug, NameValueCollection queryParameters)
