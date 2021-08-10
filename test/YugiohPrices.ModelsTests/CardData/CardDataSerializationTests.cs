@@ -32,5 +32,16 @@ namespace YugiohPrices.ModelsTests.CardData
             
             Assert.Equal(15, content.Count());
         }
+
+        [Fact]
+        public void CardSupportSerializationWithDemoResponse()
+        {
+            var jsonData = File.ReadAllText("./TestData/CardData/CardSupportDemoResponse.json");
+            var content =
+                JsonSerializer.Deserialize<IEnumerable<string>>(jsonData,
+                    JsonSerializerTestOptions.JsonSerializerOptions);
+            
+            Assert.Equal(32, content.Count());
+        }
     }
 }

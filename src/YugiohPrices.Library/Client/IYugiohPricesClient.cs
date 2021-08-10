@@ -65,5 +65,10 @@ namespace YugiohPrices.Library.Client
         /// Gets the different versions of the card with the given name.
         /// </summary>
         Task<IEnumerable<CardVersionResponse>> GetCardVersions(string cardName);
+
+        /// <summary>
+        /// Gets support card names for a specific card.
+        /// </summary>
+        Task<IEnumerable<string>> GetCardSupport(string cardName);
     }
 }

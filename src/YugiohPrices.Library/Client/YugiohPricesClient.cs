@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Runtime.Serialization;
-using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Web;
@@ -117,6 +116,15 @@ namespace YugiohPrices.Library.Client
             var content = await _httpClient.GetAsync(requestUrl);
 
             return JsonSerializer.Deserialize<IEnumerable<CardVersionResponse>>(content, _jsonOptions);
+        }
+
+        public async Task<IEnumerable<string>> GetCardSupport(string cardName)
+        {
+            var baseUrl = $"card_support/{HttpUtility.UrlEncode(cardName)}";
+            var requestUrl = BuildRequestUrl(baseUrl);
+            var content = await _httpClient.GetAsync(requestUrl);
+
+            return JsonSerializer.Deserialize<IEnumerable<string>>(content, _jsonOptions);
         }
 
         private static string BuildRequestUrl(string urlSlug, NameValueCollection queryParameters)
