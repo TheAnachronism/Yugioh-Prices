@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using YugiohPrices.Models;
 using YugiohPrices.Models.Database;
 using YugiohPrices.Models.Prices.Card;
+using YugiohPrices.Models.Prices.RisingAndFalling;
 using YugiohPrices.Models.Prices.Set;
 
 namespace YugiohPrices.Library.Client
@@ -43,5 +44,10 @@ namespace YugiohPrices.Library.Client
         /// </summary>
         /// <returns>A list of set names.</returns>
         Task<SetDatabaseResponse> GetSetNames();
+
+        /// <summary>
+        /// Retrieve rising and falling cards list.
+        /// </summary>
+        Task<CardRisingAndFallingResponse> GetCurrentRisingAndFallingCards();
     }
 }

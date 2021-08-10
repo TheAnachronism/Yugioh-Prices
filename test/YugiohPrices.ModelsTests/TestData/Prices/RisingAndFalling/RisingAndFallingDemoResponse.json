@@ -1,0 +1,774 @@
+﻿{
+  "rising": [
+    {
+      "name": "Helpoemer",
+      "price": 5.0,
+      "price_shift": 3.923273657289,
+      "card_number": "PGD-058",
+      "card_set": "Pharaonic Guardian",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Mirror Force",
+      "price": 5.0,
+      "price_shift": 1.86882716049383,
+      "card_number": "MRD-138",
+      "card_set": "Metal Raiders",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Armityle the Chaos Phantasm",
+      "price": 24.0,
+      "price_shift": 1.67282051282051,
+      "card_number": "ANPR-EN091",
+      "card_set": "Ancient Prophecy",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Mirror Force Dragon",
+      "price": 6.79,
+      "price_shift": 1.44034440344403,
+      "card_number": "DRL2-EN005",
+      "card_set": "Dragons of Legend 2",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Victoria",
+      "price": 11.99,
+      "price_shift": 1.1341730558598,
+      "card_number": "SOVR-EN093",
+      "card_set": "Stardust Overdrive",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Elemental HERO Gaia",
+      "price": 29.8,
+      "price_shift": 1.06282161234991,
+      "card_number": "ANPR-EN099",
+      "card_set": "Ancient Prophecy",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Rainbow Dragon",
+      "price": 15.99,
+      "price_shift": 0.986107400480898,
+      "card_number": "TAEV-EN006",
+      "card_set": "Tactical Evolution",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Exodia the Forbidden One",
+      "price": 19.4,
+      "price_shift": 0.957126739375705,
+      "card_number": "LOB-124",
+      "card_set": "Legend of Blue Eyes White Dragon",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Blue-Eyes White Dragon",
+      "price": 9.89,
+      "price_shift": 0.950344327654947,
+      "card_number": "SDK-001",
+      "card_set": "Starter Deck: Kaiba",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Baxia, Brightness of the Yang Zing",
+      "price": 16.97,
+      "price_shift": 0.873711340206186,
+      "card_number": "DUEA-EN051",
+      "card_set": "Duelist Alliance",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Live☆Twin Ki-sikil Frost",
+      "price": 5.47,
+      "price_shift": 0.827083333333333,
+      "card_number": "LIOV-EN017",
+      "card_set": "Lightning Overdrive",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Toon Summoned Skull",
+      "price": 5.0,
+      "price_shift": 0.805181347150259,
+      "card_number": "MRL-073",
+      "card_set": "Magic Ruler",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Apollousa, Bow of the Goddess",
+      "price": 5.74,
+      "price_shift": 0.747700394218134,
+      "card_number": "MP20-EN126",
+      "card_set": "2020 Tin of Lost Memories",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Arcanite Magician/Assault Mode",
+      "price": 5.99,
+      "price_shift": 0.684478371501272,
+      "card_number": "CRMS-EN021",
+      "card_set": "Crimson Crisis",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Gizmek Kaku, the Supreme Shining Sky Stag",
+      "price": 9.0,
+      "price_shift": 0.641826923076923,
+      "card_number": "IGAS-EN024",
+      "card_set": "Ignition Assault",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Yazi, Evil of the Yang Zing",
+      "price": 10.0,
+      "price_shift": 0.604829857299671,
+      "card_number": "NECH-EN051",
+      "card_set": "The New Challengers",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Inzektor Hornet",
+      "price": 10.0,
+      "price_shift": 0.602564102564103,
+      "card_number": "ORCS-EN017",
+      "card_set": "Order of Chaos",
+      "rarity": "Super Rare"
+    },
+    {
+      "name": "Gizmek Orochi, the Serpentron Sky Slasher",
+      "price": 7.0,
+      "price_shift": 0.590070921985816,
+      "card_number": "RIRA-EN029",
+      "card_set": "Rising Rampage",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Doom Virus Dragon",
+      "price": 8.99,
+      "price_shift": 0.588532883642496,
+      "card_number": "DRL2-EN003",
+      "card_set": "Dragons of Legend 2",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Reptilianne Hydra",
+      "price": 7.19,
+      "price_shift": 0.500791139240506,
+      "card_number": "SOVR-EN042",
+      "card_set": "Stardust Overdrive",
+      "rarity": "Super Rare"
+    },
+    {
+      "name": "Evil★Twin Ki-sikil",
+      "price": 23.2,
+      "price_shift": 0.479845389287686,
+      "card_number": "GEIM-EN015",
+      "card_set": "Genesis Impact",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Red-Eyes Slash Dragon",
+      "price": 9.1,
+      "price_shift": 0.449899799599198,
+      "card_number": "LEDU-EN003",
+      "card_set": "Legendary Duelists",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Number 75: Bamboozling Gossip Shadow",
+      "price": 11.81,
+      "price_shift": 0.447698744769874,
+      "card_number": "BLRR-EN032",
+      "card_set": "Battles of Legend: Relentless Revenge",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Golden Castle of Stromberg",
+      "price": 8.49,
+      "price_shift": 0.415026833631485,
+      "card_number": "BLRR-EN010",
+      "card_set": "Battles of Legend: Relentless Revenge",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Super Quantum Red Layer",
+      "price": 6.0,
+      "price_shift": 0.414209115281501,
+      "card_number": "WIRA-EN030",
+      "card_set": "Wing Raiders",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Elemental HERO Wildedge",
+      "price": 9.5,
+      "price_shift": 0.40814696485623,
+      "card_number": "EEN-EN035",
+      "card_set": "Elemental Energy",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Tempest Magician",
+      "price": 6.98,
+      "price_shift": 0.396891191709845,
+      "card_number": "CSOC-EN088",
+      "card_set": "Crossroads of Chaos",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Number 6: Chronomaly Atlandis",
+      "price": 6.5,
+      "price_shift": 0.396777442094663,
+      "card_number": "REDU-EN092",
+      "card_set": "Return of the Duelist",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Card of Safe Return",
+      "price": 6.0,
+      "price_shift": 0.396571428571429,
+      "card_number": "LON-029",
+      "card_set": "Labyrinth of Nightmare",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Toon Kingdom",
+      "price": 5.5,
+      "price_shift": 0.395121951219512,
+      "card_number": "DLCS-EN074",
+      "card_set": "Dragons of Legend: The Complete Series",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Cyber Laser Dragon",
+      "price": 7.49,
+      "price_shift": 0.383801196502531,
+      "card_number": "SOI-EN007",
+      "card_set": "Shadow of Infinity",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Evil HERO Lightning Golem",
+      "price": 5.04,
+      "price_shift": 0.371691599539701,
+      "card_number": "GLAS-EN039",
+      "card_set": "Gladiator's Assault",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Elemental HERO Shining Phoenix Enforcer",
+      "price": 9.99,
+      "price_shift": 0.369386464263125,
+      "card_number": "EOJ-EN033",
+      "card_set": "Enemy of Justice",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Mystic Mine",
+      "price": 7.0,
+      "price_shift": 0.368115942028986,
+      "card_number": "MP20-EN080",
+      "card_set": "2020 Tin of Lost Memories",
+      "rarity": "Prismatic Secret Rare"
+    },
+    {
+      "name": "The Winged Dragon of Ra",
+      "price": 12.16,
+      "price_shift": 0.366823428815733,
+      "card_number": "LED7-EN000",
+      "card_set": "Legendary Duelists: Rage of Ra",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Infernity Mirage",
+      "price": 5.78,
+      "price_shift": 0.358719646799117,
+      "card_number": "TSHD-EN012",
+      "card_set": "The Shining Darkness",
+      "rarity": "Super Rare"
+    },
+    {
+      "name": "Relinquished",
+      "price": 6.63,
+      "price_shift": 0.350697674418605,
+      "card_number": "SRL-029",
+      "card_set": "Spell Ruler",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "UFOroid Fighter",
+      "price": 5.06,
+      "price_shift": 0.350145489815713,
+      "card_number": "CRV-EN034",
+      "card_set": "Cybernetic Revolution",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Ruddy Rose Dragon",
+      "price": 12.77,
+      "price_shift": 0.346476510067114,
+      "card_number": "LIOV-EN035",
+      "card_set": "Lightning Overdrive",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Bahamut Shark",
+      "price": 6.39,
+      "price_shift": 0.337164750957854,
+      "card_number": "PGL3-EN069",
+      "card_set": "Premium Gold: Infinite Gold",
+      "rarity": "Gold Rare"
+    },
+    {
+      "name": "Virtual World Kyubi - Shenshen",
+      "price": 5.99,
+      "price_shift": 0.326231691078562,
+      "card_number": "PHRA-EN036",
+      "card_set": "Phantom Rage",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Chamber Dragonmaid",
+      "price": 6.66,
+      "price_shift": 0.325119359310026,
+      "card_number": "ETCO-EN026",
+      "card_set": "Eternity Code",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Heavenly Zephyr - Miradora",
+      "price": 5.03,
+      "price_shift": 0.324254215304799,
+      "card_number": "BLVO-EN029",
+      "card_set": "Blazing Vortex",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Ghost Belle & Haunted Mansion",
+      "price": 42.69,
+      "price_shift": 0.322090046679717,
+      "card_number": "FLOD-EN033",
+      "card_set": "Flames of Destruction",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Isolde, Two Tales of the Noble Knights",
+      "price": 7.45,
+      "price_shift": 0.315849486887115,
+      "card_number": "EXFO-EN094",
+      "card_set": "Extreme Force",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Elemental HERO Thunder Giant",
+      "price": 8.99,
+      "price_shift": 0.311545510079414,
+      "card_number": "TLM-EN036",
+      "card_set": "The Lost Millennium",
+      "rarity": "Ultra Rare"
+    }
+  ],
+  "falling": [
+    {
+      "name": "Tri-Horned Dragon",
+      "price": 36.66,
+      "price_shift": -0.853587086086025,
+      "card_number": "LOB-E000",
+      "card_set": "Legend of Blue Eyes White Dragon",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Dark Paladin",
+      "price": 19.24,
+      "price_shift": -0.761229511615298,
+      "card_number": "MFC-105",
+      "card_set": "Magician's Force",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Red-Eyes Black Dragon",
+      "price": 7.06,
+      "price_shift": -0.759147143985259,
+      "card_number": "LC01-EN006",
+      "card_set": "Legendary Collection",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Gaia the Dragon Champion",
+      "price": 29.8,
+      "price_shift": -0.749361074115403,
+      "card_number": "LOB-E102",
+      "card_set": "Legend of Blue Eyes White Dragon",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Mormolith",
+      "price": 7.97,
+      "price_shift": -0.683348924228251,
+      "card_number": "TAEV-EN085",
+      "card_set": "Tactical Evolution",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Chaos Emperor Dragon - Envoy of the End",
+      "price": 41.98,
+      "price_shift": -0.574512373756842,
+      "card_number": "DR2-EN056",
+      "card_set": "Dark Revelation Volume 2",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Skull Archfiend of Lightning",
+      "price": 6.15,
+      "price_shift": -0.5578125,
+      "card_number": "DR1-EN235",
+      "card_set": "Dark Revelation Volume 1",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Thousand Dragon",
+      "price": 4.33,
+      "price_shift": -0.533522190745987,
+      "card_number": "MRD-143",
+      "card_set": "Metal Raiders",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Time Wizard",
+      "price": 22.66,
+      "price_shift": -0.506147257908551,
+      "card_number": "MRD-E065",
+      "card_set": "Metal Raiders",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Painful Decision",
+      "price": 5.2,
+      "price_shift": -0.503643377625375,
+      "card_number": "DOCS-EN065",
+      "card_set": "Dimension of Chaos",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Solemn Judgment",
+      "price": 15.59,
+      "price_shift": -0.484113712374582,
+      "card_number": "DLG1-EN046",
+      "card_set": "Dark Legends",
+      "rarity": "Super Rare"
+    },
+    {
+      "name": "Mask of Restrict",
+      "price": 8.98,
+      "price_shift": -0.445450625269513,
+      "card_number": "LON-018",
+      "card_set": "Labyrinth of Nightmare",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Ten Thousand Dragon",
+      "price": 9.99,
+      "price_shift": -0.42256496936404,
+      "card_number": "BLAR-EN10K",
+      "card_set": "Battles of Legend: Armageddon",
+      "rarity": "10000 Secret Rare"
+    },
+    {
+      "name": "Number 49: Fortune Tune",
+      "price": 6.99,
+      "price_shift": -0.418687167356594,
+      "card_number": "NUMH-EN029",
+      "card_set": "Number Hunters",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Dragon Ice",
+      "price": 15.56,
+      "price_shift": -0.414004760115245,
+      "card_number": "GLAS-EN084",
+      "card_set": "Gladiator's Assault",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Sky Striker Mobilize - Engage!",
+      "price": 7.49,
+      "price_shift": -0.409631391200951,
+      "card_number": "DASA-EN030",
+      "card_set": "Dark Saviors",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Goyo Guardian",
+      "price": 4.15,
+      "price_shift": -0.388650042992261,
+      "card_number": "CT05-ENS03",
+      "card_set": "Collectible Tins Exclusive 2008",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Dark Rebellion Xyz Dragon",
+      "price": 13.9,
+      "price_shift": -0.368620037807183,
+      "card_number": "NECH-EN053",
+      "card_set": "The New Challengers",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Gravekeeper's Recruiter",
+      "price": 4.84,
+      "price_shift": -0.347988077496274,
+      "card_number": "STBL-EN085",
+      "card_set": "Starstrike Blast",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Des Volstgalph",
+      "price": 6.23,
+      "price_shift": -0.346228239845261,
+      "card_number": "GLD2-EN002",
+      "card_set": "Gold Series 2009",
+      "rarity": "Gold Rare"
+    },
+    {
+      "name": "ZW - Leo Arms",
+      "price": 5.0,
+      "price_shift": -0.329732065687122,
+      "card_number": "CBLZ-EN047",
+      "card_set": "Cosmo Blazer",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Dark Master - Zorc",
+      "price": 5.0,
+      "price_shift": -0.327084680025857,
+      "card_number": "DR1-EN244",
+      "card_set": "Dark Revelation Volume 1",
+      "rarity": "Super Rare"
+    },
+    {
+      "name": "Left Leg of the Forbidden One",
+      "price": 5.5,
+      "price_shift": -0.324324324324324,
+      "card_number": "LOB-121",
+      "card_set": "Legend of Blue Eyes White Dragon",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Rainbow Neos",
+      "price": 24.95,
+      "price_shift": -0.316259731068648,
+      "card_number": "PTDN-EN044",
+      "card_set": "Phantom Darkness",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Naturia Cherries",
+      "price": 14.5,
+      "price_shift": -0.314702308626974,
+      "card_number": "STBL-EN030",
+      "card_set": "Starstrike Blast",
+      "rarity": "Super Rare"
+    },
+    {
+      "name": "Lavalval Chain",
+      "price": 4.38,
+      "price_shift": -0.312888888888889,
+      "card_number": "PGL2-EN044",
+      "card_set": "Premium Gold: Return of the Bling",
+      "rarity": "Gold Rare"
+    },
+    {
+      "name": "Stardust Dragon",
+      "price": 15.03,
+      "price_shift": -0.312443026435734,
+      "card_number": "TDGS-EN040",
+      "card_set": "The Duelist Genesis",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Creature Swap",
+      "price": 5.49,
+      "price_shift": -0.30902348578492,
+      "card_number": "LOD-081",
+      "card_set": "Legacy of Darkness",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Sky Striker Maneuver - Afterburners!",
+      "price": 9.99,
+      "price_shift": -0.304681504221028,
+      "card_number": "DASA-EN031",
+      "card_set": "Dark Saviors",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Ningirsu the World Chalice Warrior",
+      "price": 4.95,
+      "price_shift": -0.301554404145078,
+      "card_number": "COTD-EN050",
+      "card_set": "Code of the Duelist",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Evilswarm Exciton Knight",
+      "price": 9.49,
+      "price_shift": -0.299107142857143,
+      "card_number": "LVAL-EN056",
+      "card_set": "Legacy of the Valiant",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Sky Striker Mecha - Widow Anchor",
+      "price": 10.7,
+      "price_shift": -0.294725956566701,
+      "card_number": "BLHR-EN092",
+      "card_set": "Battles of Legend: Hero's Revenge",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Asura Priest",
+      "price": 4.85,
+      "price_shift": -0.294007490636704,
+      "card_number": "LOD-071",
+      "card_set": "Legacy of Darkness",
+      "rarity": "Super Rare"
+    },
+    {
+      "name": "Ancient Gear Golem",
+      "price": 21.1,
+      "price_shift": -0.285457299753834,
+      "card_number": "TLM-EN006",
+      "card_set": "The Lost Millennium",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Obelisk the Tormentor (original)",
+      "price": 59.99,
+      "price_shift": -0.276622414677226,
+      "card_number": "JMP-EN004",
+      "card_set": "Shonen Jump May 2005 subscription bonus",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Dark Sage",
+      "price": 13.59,
+      "price_shift": -0.27569400296673,
+      "card_number": "DB1-EN096",
+      "card_set": "Dark Beginning 1",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Chaos Goddess",
+      "price": 7.65,
+      "price_shift": -0.273286052009456,
+      "card_number": "TSHD-EN044",
+      "card_set": "The Shining Darkness",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Joker's Straight",
+      "price": 6.0,
+      "price_shift": -0.262024407753051,
+      "card_number": "KICO-EN004",
+      "card_set": "King's Court",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Dante, Traveler of the Burning Abyss",
+      "price": 12.81,
+      "price_shift": -0.257425742574257,
+      "card_number": "DUEA-EN085",
+      "card_set": "Duelist Alliance",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Armed Dragon Catapult Cannon",
+      "price": 8.93,
+      "price_shift": -0.257180156657963,
+      "card_number": "LED2-EN021",
+      "card_set": "Legendary Duelists: Ancient Millennium",
+      "rarity": "Super Rare"
+    },
+    {
+      "name": "Lilith, Lady of Lament",
+      "price": 4.75,
+      "price_shift": -0.255542590431739,
+      "card_number": "SR06-EN000",
+      "card_set": "Structure Deck: Lair of Darkness",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Blue-Eyes Toon Dragon",
+      "price": 50.95,
+      "price_shift": -0.249822602772127,
+      "card_number": "MRL-000",
+      "card_set": "Magic Ruler",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Left Arm of the Forbidden One",
+      "price": 4.06,
+      "price_shift": -0.247076023391813,
+      "card_number": "PGL2-EN025",
+      "card_set": "Premium Gold: Return of the Bling",
+      "rarity": "Gold Rare"
+    },
+    {
+      "name": "Paladin of White Dragon",
+      "price": 5.93,
+      "price_shift": -0.247037914691943,
+      "card_number": "MFC-026",
+      "card_set": "Magician's Force",
+      "rarity": "Ultra Rare"
+    },
+    {
+      "name": "Rescue Cat",
+      "price": 9.99,
+      "price_shift": -0.24507874015748,
+      "card_number": "FET-EN033",
+      "card_set": "Flaming Eternity",
+      "rarity": "Common"
+    },
+    {
+      "name": "Salamangreat Pyro Phoenix",
+      "price": 4.73,
+      "price_shift": -0.245070422535211,
+      "card_number": "CHIM-EN039",
+      "card_set": "Chaos Impact",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "White Night Dragon",
+      "price": 6.99,
+      "price_shift": -0.244687883652847,
+      "card_number": "ANPR-EN092",
+      "card_set": "Ancient Prophecy",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Veil of Darkness",
+      "price": 9.99,
+      "price_shift": -0.243521698407743,
+      "card_number": "GLAS-EN088",
+      "card_set": "Gladiator's Assault",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Imperial Order",
+      "price": 5.99,
+      "price_shift": -0.238993710691824,
+      "card_number": "PSV-104",
+      "card_set": "Pharaoh's Servant",
+      "rarity": "Secret Rare"
+    },
+    {
+      "name": "Traptrix Rafflesia",
+      "price": 7.0,
+      "price_shift": -0.238617200674536,
+      "card_number": "BOSH-EN099",
+      "card_set": "Breakers of Shadow",
+      "rarity": "Secret Rare"
+    }
+  ]
+}

@@ -29,6 +29,8 @@ namespace YugiohPrices.Models
         [EnumMember(Value = "Ultimate Rare")]
         UltimateRare,
         [EnumMember(Value = "Ultra Rare")]
-        UltraRare
+        UltraRare,
+        [EnumMember(Value = "10000 Secret Rare")]
+        TenThousandSecretRare
     }
 }

@@ -10,6 +10,7 @@ using YugiohPrices.Library.Services;
 using YugiohPrices.Models;
 using YugiohPrices.Models.Database;
 using YugiohPrices.Models.Prices.Card;
+using YugiohPrices.Models.Prices.RisingAndFalling;
 using YugiohPrices.Models.Prices.Set;
 
 namespace YugiohPrices.Library.Client
@@ -69,11 +70,20 @@ namespace YugiohPrices.Library.Client
 
         public async Task<SetDatabaseResponse> GetSetNames()
         {
-            var baseUrl = $"card_sets";
+            const string baseUrl = "card_sets";
             var requestUrl = BuildRequestUrl(baseUrl);
             var content = await _httpClient.GetAsync(requestUrl);
             
             return JsonSerializer.Deserialize<SetDatabaseResponse>(content, _jsonOptions);
+        }
+
+        public async Task<CardRisingAndFallingResponse> GetCurrentRisingAndFallingCards()
+        {
+            const string baseUrl = "rising_and_falling";
+            var requestUrl = BuildRequestUrl(baseUrl);
+            var content = await _httpClient.GetAsync(requestUrl);
+
+            return JsonSerializer.Deserialize<CardRisingAndFallingResponse>(content, _jsonOptions);
         }
 
         private static string BuildRequestUrl(string urlSlug, NameValueCollection queryParameters)
