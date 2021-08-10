@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Drawing;
 using System.Threading.Tasks;
 using YugiohPrices.Models;
 using YugiohPrices.Models.CardData;
@@ -70,5 +71,17 @@ namespace YugiohPrices.Library.Client
         /// Gets support card names for a specific card.
         /// </summary>
         Task<IEnumerable<string>> GetCardSupport(string cardName);
+
+        /// <summary>
+        /// Gets the image of the card with the given name.
+        /// </summary>
+        Task<Image> GetCardImage(string cardName);
+
+        /// <summary>
+        /// Gets the image of the set with the given name.
+        /// </summary>
+        /// <param name="setName"></param>
+        /// <returns></returns>
+        Task<Image> GetCardSetImage(string setName);
     }
 }

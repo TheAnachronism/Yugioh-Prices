@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Drawing;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text.Json;
@@ -125,6 +126,20 @@ namespace YugiohPrices.Library.Client
             var content = await _httpClient.GetAsync(requestUrl);
 
             return JsonSerializer.Deserialize<IEnumerable<string>>(content, _jsonOptions);
+        }
+
+        public async Task<Image> GetCardImage(string cardName)
+        {
+            var baseUrl = $"card_image/{HttpUtility.UrlEncode(cardName)}";
+            var requestUrl = BuildRequestUrl(baseUrl);
+            return await _httpClient.GetImageAsync(requestUrl);
+        }
+
+        public async Task<Image> GetCardSetImage(string setName)
+        {
+            var baseUrl = $"set_image/{HttpUtility.UrlEncode(setName)}";
+            var requestUrl = BuildRequestUrl(baseUrl);
+            return await _httpClient.GetImageAsync(requestUrl);
         }
 
         private static string BuildRequestUrl(string urlSlug, NameValueCollection queryParameters)

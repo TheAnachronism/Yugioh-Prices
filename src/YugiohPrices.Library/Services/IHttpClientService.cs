@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Net;
 using System.Net.Http;
 using System.Text.Json;
@@ -12,6 +13,8 @@ namespace YugiohPrices.Library.Services
         /// Sends an http get request to the given url.
         /// </summary>
         Task<string> GetAsync(string url);
+
+        Task<Image> GetImageAsync(string url);
     }
 
     internal class HttpClientService : IHttpClientService
@@ -35,6 +38,17 @@ namespace YugiohPrices.Library.Services
             return document.RootElement.ValueKind is JsonValueKind.Array
                 ? document.RootElement.ToString()
                 : document.RootElement.GetProperty("data").ToString();
+        }
+
+        public async Task<Image> GetImageAsync(string url)
+        {
+            var response = await _httpClient.GetAsync(url);
+
+            if (!response.IsSuccessStatusCode)
+                throw new HttpFailedRequestException(response.StatusCode, response.ReasonPhrase, url);
+
+            var content = await response.Content.ReadAsStreamAsync();
+            return Image.FromStream(content);
         }
     }
 

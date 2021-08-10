@@ -1,9 +1,8 @@
-﻿using System.Linq;
+﻿using System.Drawing.Imaging;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using YugiohPrices.Library.Client;
 using YugiohPrices.Library.Services;
-using YugiohPrices.Models;
 
 namespace YugiohPrices.Console
 {
@@ -14,7 +13,8 @@ namespace YugiohPrices.Console
             var services = new ServiceCollection().AddYugiohPricesClient().BuildServiceProvider();
             var client = services.GetRequiredService<IYugiohPricesClient>();
 
-            var result = await client.GetCardData("Apoqliphort Towers");
+            var result = await client.GetCardImage("El Shaddoll Construct");
+            result.Save("./Result.png", ImageFormat.Png);
         }
     }
 }
