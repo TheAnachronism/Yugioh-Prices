@@ -49,5 +49,10 @@ namespace YugiohPrices.Library.Client
         /// Retrieve rising and falling cards list.
         /// </summary>
         Task<CardRisingAndFallingResponse> GetCurrentRisingAndFallingCards();
+
+        /// <summary>
+        /// Gets the top 100 most expensive cards with the given rarity from the API.
+        /// </summary>
+        Task<IEnumerable<CardRisingAndFallingResponseEntry>> GetTop100Cards(CardRarity rarity);
     }
 }

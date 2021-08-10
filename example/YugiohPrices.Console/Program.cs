@@ -14,7 +14,8 @@ namespace YugiohPrices.Console
             var services = new ServiceCollection().AddYugiohPricesClient().BuildServiceProvider();
             var client = services.GetRequiredService<IYugiohPricesClient>();
 
-            var result = await client.GetSetNames();
+            var result = await client.GetTop100Cards(CardRarity.UltraRare);
+            System.Console.WriteLine(result.Count());
         }
     }
 }

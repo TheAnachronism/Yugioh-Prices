@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Web;
@@ -20,7 +21,8 @@ namespace YugiohPrices.Library.Client
         private readonly IHttpClientService _httpClient;
         private readonly JsonSerializerOptions _jsonOptions;
 
-        public YugiohPricesClient(IHttpClientService httpClient, IOptions<YugiohPricesClientJsonSerializerOptions> options)
+        public YugiohPricesClient(IHttpClientService httpClient,
+            IOptions<YugiohPricesClientJsonSerializerOptions> options)
         {
             _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
             _jsonOptions = options?.Value?.JsonSerializerOptions ?? throw new ArgumentNullException(
@@ -45,7 +47,8 @@ namespace YugiohPrices.Library.Client
             return JsonSerializer.Deserialize<CardPrintTagResponse>(content, _jsonOptions);
         }
 
-        public async Task<IEnumerable<CardPrintTagHistoryEntry>> GetCardPriceHistoryWithRarity(string printTag, CardRarity rarity)
+        public async Task<IEnumerable<CardPrintTagHistoryEntry>> GetCardPriceHistoryWithRarity(string printTag,
+            CardRarity rarity)
         {
             var baseUrl = $"price_history/{printTag}";
             var requestUrl = BuildRequestUrl(baseUrl, new NameValueCollection
@@ -73,7 +76,7 @@ namespace YugiohPrices.Library.Client
             const string baseUrl = "card_sets";
             var requestUrl = BuildRequestUrl(baseUrl);
             var content = await _httpClient.GetAsync(requestUrl);
-            
+
             return JsonSerializer.Deserialize<SetDatabaseResponse>(content, _jsonOptions);
         }
 
@@ -84,6 +87,16 @@ namespace YugiohPrices.Library.Client
             var content = await _httpClient.GetAsync(requestUrl);
 
             return JsonSerializer.Deserialize<CardRisingAndFallingResponse>(content, _jsonOptions);
+        }
+
+        public async Task<IEnumerable<CardRisingAndFallingResponseEntry>> GetTop100Cards(CardRarity rarity)
+        {
+            const string baseUrl = "top_100_cards";
+            var requestUrl = BuildRequestUrl(baseUrl,
+                new NameValueCollection { { "rarity", GetEnumMemberAttrValue(rarity) } });
+            var content = await _httpClient.GetAsync(requestUrl);
+
+            return JsonSerializer.Deserialize<IEnumerable<CardRisingAndFallingResponseEntry>>(content, _jsonOptions);
         }
 
         private static string BuildRequestUrl(string urlSlug, NameValueCollection queryParameters)
@@ -106,6 +119,13 @@ namespace YugiohPrices.Library.Client
                 .ToArray();
 
             return "?" + string.Join("&", array);
+        }
+
+        private string GetEnumMemberAttrValue<TEnum>(TEnum enumVal) where TEnum : Enum
+        {
+            var memInfo = typeof(TEnum).GetMember(enumVal.ToString());
+            var attr = memInfo[0].GetCustomAttributes(false).OfType<EnumMemberAttribute>().FirstOrDefault();
+            return attr?.Value;
         }
     }
 }
