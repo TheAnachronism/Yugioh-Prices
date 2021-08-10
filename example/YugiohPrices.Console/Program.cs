@@ -14,8 +14,7 @@ namespace YugiohPrices.Console
             var services = new ServiceCollection().AddYugiohPricesClient().BuildServiceProvider();
             var client = services.GetRequiredService<IYugiohPricesClient>();
 
-            var result = await client.GetTop100Cards(CardRarity.UltraRare);
-            System.Console.WriteLine(result.Count());
+            var result = await client.GetCardData("Apoqliphort Towers");
         }
     }
 }

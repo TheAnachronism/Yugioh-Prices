@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Runtime.Serialization;
+using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Web;
 using Microsoft.Extensions.Options;
 using YugiohPrices.Library.Services;
 using YugiohPrices.Models;
+using YugiohPrices.Models.CardData;
 using YugiohPrices.Models.Database;
 using YugiohPrices.Models.Prices.Card;
 using YugiohPrices.Models.Prices.RisingAndFalling;
@@ -97,6 +99,15 @@ namespace YugiohPrices.Library.Client
             var content = await _httpClient.GetAsync(requestUrl);
 
             return JsonSerializer.Deserialize<IEnumerable<CardRisingAndFallingResponseEntry>>(content, _jsonOptions);
+        }
+
+        public async Task<CardInformationResponse> GetCardData(string cardName)
+        {
+            var baseUrl = $"card_data/{HttpUtility.UrlEncode(cardName)}";
+            var requestUrl = BuildRequestUrl(baseUrl);
+            var content = await _httpClient.GetAsync(requestUrl);
+
+            return JsonSerializer.Deserialize<CardInformationResponse>(content, _jsonOptions);
         }
 
         private static string BuildRequestUrl(string urlSlug, NameValueCollection queryParameters)

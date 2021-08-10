@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using YugiohPrices.Models;
+using YugiohPrices.Models.CardData;
 using YugiohPrices.Models.Database;
 using YugiohPrices.Models.Prices.Card;
 using YugiohPrices.Models.Prices.RisingAndFalling;
@@ -54,5 +55,10 @@ namespace YugiohPrices.Library.Client
         /// Gets the top 100 most expensive cards with the given rarity from the API.
         /// </summary>
         Task<IEnumerable<CardRisingAndFallingResponseEntry>> GetTop100Cards(CardRarity rarity);
+
+        /// <summary>
+        /// Gets the card information of the card with the given name.
+        /// </summary>
+        Task<CardInformationResponse> GetCardData(string cardName);
     }
 }

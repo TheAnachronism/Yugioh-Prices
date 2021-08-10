@@ -41,6 +41,9 @@
       <None Update="TestData\Prices\RisingAndFalling\Top100MostExpensiveCardDemoResponse.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="TestData\CardData\CardDataDemoResponse.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
     <ItemGroup>
