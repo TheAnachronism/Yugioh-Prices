@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Text.Json;
 using Xunit;
 using YugiohPrices.Models;
@@ -18,6 +20,17 @@ namespace YugiohPrices.ModelsTests.CardData
                     JsonSerializerTestOptions.JsonSerializerOptions);
 
             Assert.Equal(CardAttribute.Earth, content.Attribute);
+        }
+
+        [Fact]
+        public void CardVersionSerializationWithDemoResponse()
+        {
+            var jsonData = File.ReadAllText("./TestData/CardData/CardVersionDemoResponse.json");
+            var content =
+                JsonSerializer.Deserialize<IEnumerable<CardVersionResponse>>(jsonData,
+                    JsonSerializerTestOptions.JsonSerializerOptions);
+            
+            Assert.Equal(15, content.Count());
         }
     }
 }

@@ -110,6 +110,15 @@ namespace YugiohPrices.Library.Client
             return JsonSerializer.Deserialize<CardInformationResponse>(content, _jsonOptions);
         }
 
+        public async Task<IEnumerable<CardVersionResponse>> GetCardVersions(string cardName)
+        {
+            var baseUrl = $"card_versions/{HttpUtility.UrlEncode(cardName)}";
+            var requestUrl = BuildRequestUrl(baseUrl);
+            var content = await _httpClient.GetAsync(requestUrl);
+
+            return JsonSerializer.Deserialize<IEnumerable<CardVersionResponse>>(content, _jsonOptions);
+        }
+
         private static string BuildRequestUrl(string urlSlug, NameValueCollection queryParameters)
         {
             return BuildRequestUrl(urlSlug + ToQueryString(queryParameters));

@@ -26,7 +26,7 @@ namespace YugiohPrices.Models.Converters
                     return string.Equals(propertyValue, jsonName, StringComparison.InvariantCultureIgnoreCase);
                 });
             }
-            catch (InvalidOperationException e)
+            catch (InvalidOperationException)
             {
                 throw new JsonException();
             }

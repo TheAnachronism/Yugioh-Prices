@@ -60,5 +60,10 @@ namespace YugiohPrices.Library.Client
         /// Gets the card information of the card with the given name.
         /// </summary>
         Task<CardInformationResponse> GetCardData(string cardName);
+
+        /// <summary>
+        /// Gets the different versions of the card with the given name.
+        /// </summary>
+        Task<IEnumerable<CardVersionResponse>> GetCardVersions(string cardName);
     }
 }
