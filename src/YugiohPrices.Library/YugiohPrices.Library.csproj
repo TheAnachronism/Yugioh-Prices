@@ -2,6 +2,10 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>YugiohPrices.Library</Title>
+        <PackageProjectUrl>https://github.com/TheAnachronism/Yugioh-Prices</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/TheAnachronism/Yugioh-Prices</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
