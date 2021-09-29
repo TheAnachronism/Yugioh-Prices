@@ -6,6 +6,7 @@
         <Title>YugiohPrices.Library</Title>
         <PackageProjectUrl>https://github.com/TheAnachronism/Yugioh-Prices</PackageProjectUrl>
         <RepositoryUrl>https://github.com/TheAnachronism/Yugioh-Prices</RepositoryUrl>
+        <PackageVersion>1.0.1</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>

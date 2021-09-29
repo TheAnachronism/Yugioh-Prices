@@ -6,6 +6,7 @@
         <Title>YugiohPrices.Models</Title>
         <RepositoryUrl>https://github.com/TheAnachronism/Yugioh-Prices</RepositoryUrl>
         <PackageProjectUrl>https://github.com/TheAnachronism/Yugioh-Prices</PackageProjectUrl>
+        <PackageVersion>1.0.1</PackageVersion>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
