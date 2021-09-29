@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YugiohPrices.Console", "exa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YugiohPrices.ModelsTests", "test\YugiohPrices.ModelsTests\YugiohPrices.ModelsTests.csproj", "{32ABD3E5-488A-4B9A-B3A4-F5F52773CB4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YugiohPrices.LibraryTests", "test\YugiohPrices.LibraryTests\YugiohPrices.LibraryTests.csproj", "{1CC89729-C82D-4299-BAB8-620FF3E4D429}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,7 @@ Global
 		{5CD525DE-C04E-4688-8947-81B4D009431A} = {D4F3BB4E-13F7-4910-9527-17939B48921A}
 		{0FD18D23-138B-4F5D-94CC-BE490E0BCE47} = {D50F28FB-987D-4808-AC23-4B3C3890DC1D}
 		{32ABD3E5-488A-4B9A-B3A4-F5F52773CB4E} = {7320C24E-BF20-43FF-B71C-DED7E1210601}
+		{1CC89729-C82D-4299-BAB8-620FF3E4D429} = {7320C24E-BF20-43FF-B71C-DED7E1210601}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EE5C7BDA-EBF7-46C2-91F8-D18E5E6D56D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,5 +45,9 @@ Global
 		{32ABD3E5-488A-4B9A-B3A4-F5F52773CB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32ABD3E5-488A-4B9A-B3A4-F5F52773CB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32ABD3E5-488A-4B9A-B3A4-F5F52773CB4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC89729-C82D-4299-BAB8-620FF3E4D429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC89729-C82D-4299-BAB8-620FF3E4D429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC89729-C82D-4299-BAB8-620FF3E4D429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC89729-C82D-4299-BAB8-620FF3E4D429}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

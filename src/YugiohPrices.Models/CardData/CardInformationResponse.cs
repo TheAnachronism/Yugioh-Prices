@@ -33,24 +33,24 @@ namespace YugiohPrices.Models.CardData
         /// The cards attribute
         /// </summary>
         [JsonPropertyName("Family")]
-        public CardAttribute Attribute { get; set; }
+        public CardAttribute? Attribute { get; set; }
 
         /// <summary>
         /// The monsters attack points.
         /// </summary>
         [JsonPropertyName("Atk")]
-        public int Attack { get; set; }
+        public int? Attack { get; set; }
 
         /// <summary>
         /// The monsters defense points.
         /// </summary>
         [JsonPropertyName("def")]
-        public int Defense { get; set; }
+        public int? Defense { get; set; }
 
         /// <summary>
         /// The monsters level
         /// </summary>
-        public int Level { get; set; }
+        public int? Level { get; set; }
 
         /// <summary>
         /// The cards property

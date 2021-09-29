@@ -13,8 +13,7 @@ namespace YugiohPrices.Console
             var services = new ServiceCollection().AddYugiohPricesClient().BuildServiceProvider();
             var client = services.GetRequiredService<IYugiohPricesClient>();
 
-            var result = await client.GetCardImage("El Shaddoll Construct");
-            result.Save("./Result.png", ImageFormat.Png);
+            var result = await client.GetCardData("Raigeki");
         }
     }
 }
