@@ -57,7 +57,6 @@ namespace YugiohPrices.Library.Services
         public HttpFailedRequestException(HttpStatusCode responseStatusCode, string responseReasonPhrase, string url)
         : this(GenerateGetException(responseStatusCode, responseReasonPhrase, url))
         {
-            throw new NotImplementedException();
         }
 
         private static string GenerateGetException(HttpStatusCode responseStatusCode, string responseReasonPhrase, string url)
