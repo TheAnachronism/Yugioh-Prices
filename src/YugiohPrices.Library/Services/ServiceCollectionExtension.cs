@@ -20,7 +20,7 @@ namespace YugiohPrices.Library.Services
                 x.JsonSerializerOptions = options;
             });
             services.AddTransient<IYugiohPricesClient, YugiohPricesClient>();
-            services.AddHttpClient<IHttpClientService, HttpClientService>();
+            services.AddHttpClient<IYugiohPricesHttpClientService, YugiohPricesHttpClientService>();
 
             return services;
         }

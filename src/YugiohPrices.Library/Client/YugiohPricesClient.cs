@@ -20,10 +20,10 @@ namespace YugiohPrices.Library.Client
 {
     internal class YugiohPricesClient : IYugiohPricesClient
     {
-        private readonly IHttpClientService _httpClient;
+        private readonly IYugiohPricesHttpClientService _httpClient;
         private readonly JsonSerializerOptions _jsonOptions;
 
-        public YugiohPricesClient(IHttpClientService httpClient,
+        public YugiohPricesClient(IYugiohPricesHttpClientService httpClient,
             IOptions<YugiohPricesClientJsonSerializerOptions> options)
         {
             _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));

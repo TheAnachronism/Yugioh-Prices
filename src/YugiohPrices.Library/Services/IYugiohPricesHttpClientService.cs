@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace YugiohPrices.Library.Services
 {
-    public interface IHttpClientService
+    public interface IYugiohPricesHttpClientService
     {
         /// <summary>
         /// Sends an http get request to the given url.
@@ -17,11 +17,11 @@ namespace YugiohPrices.Library.Services
         Task<Image> GetImageAsync(string url);
     }
 
-    internal class HttpClientService : IHttpClientService
+    internal class YugiohPricesHttpClientService : IYugiohPricesHttpClientService
     {
         private readonly HttpClient _httpClient;
 
-        public HttpClientService(HttpClient httpClient)
+        public YugiohPricesHttpClientService(HttpClient httpClient)
         {
             _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
         }
